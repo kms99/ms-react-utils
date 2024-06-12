@@ -1,7 +1,27 @@
 {
   "name": "ms-react-utils",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "./browser/specific/main.js",
+  "author": {
+    "name": "Kim MyungSub",
+    "email": "audtjq213@gmail.com",
+    "url": "https://www.kimmyungsub-portfolio.com/"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/kms99/ms-react-utils"
+  },
+  "description": "react components library",
+  "keywords": [
+    "modal",
+    "alert",
+    "confirm",
+    "carousel",
+    "progress"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +40,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "rm -rf dist && mkdir dist && tsc"
   },
   "eslintConfig": {
     "extends": [
