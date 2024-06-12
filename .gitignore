@@ -22,7 +22,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # 배포용
-node_modules/
-src/
-public/
+/node_modules
+/src/App.tsx
+/src/index.tsx
+/public/*
 tsconfig.json

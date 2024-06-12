@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except dist folder
+!dist/
+!dist/**
+
+# Ensure these files are included
+!.npmignore
+!package.json
+!README.md
+!LICENSE
